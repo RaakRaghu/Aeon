@@ -34,4 +34,3 @@ jobs:
           HD_DATABASE_URL: ${{secrets.DATABASE_URL}}
           HD_BOT_TOKEN: ${{secrets.BOT_TOKEN}}
           HD_CONFIG_FILE_URL: ${{secrets.CONFIG_FILE_URL}}
-          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION = true

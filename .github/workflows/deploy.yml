@@ -7,7 +7,7 @@ on:
         description: 'Branch to deploy'
         required: true
         default: 'deploy'
-
+ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
 jobs:
   deploy:
     runs-on: ubuntu-latest
